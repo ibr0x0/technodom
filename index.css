@@ -1,0 +1,96 @@
+header{
+
+}
+.header-tombar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    position: relative;
+    z-index: 115;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid #f4f4f4;
+    margin: 30px ;
+    padding-bottom: 10px;
+}
+
+.flex-center{
+    display: flex;
+}
+
+.mr-24 img{
+    height: 18px;
+    width: 18px;
+}
+
+.mr-24{
+    display: flex;
+    margin-right: 24px;
+}
+
+.contact-tombar{
+    display: flex;
+    
+}
+
+.change-lan{
+    display: flex;
+    margin-right: 20px;
+}
+
+.change-lan button{
+    margin-right: 10px;
+}
+
+input{
+    font-size: 20px;
+    width: 500px;
+    background-image: url(./image/icons8-поиск-50.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding: 5px 40px;
+    background-position: 10px 10px;
+    border-radius: 7px;
+}
+
+.contact-tombar span{
+    color: #2196f3;
+}
+
+.change-lan button{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 32px;
+    cursor: pointer;
+    border-color: #2196f3;
+    
+}
+
+.header-logo{
+    
+}
+
+.header-logo p{
+    font-size: 15px;
+}
+
+.header-catolog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+    background-color: #fc6b3f;
+    border-radius: 8px;
+}
+
+.header-catolog img{
+    height: 30px;
+    color: #f4f4f4;
+}
